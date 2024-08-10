@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="387dp"
+        android:layout_height="851dp"
+        app:srcCompat="@drawable/full_back"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/write_your_notes_here"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/decs_box"
+        android:layout_width="330sp"
+        android:layout_height="58sp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bar_style"
+        android:ems="10"
+        android:hint="@string/enter_your_description"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/title_box"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/title_box"
+        app:layout_constraintTop_toBottomOf="@+id/title_box" />
+
+    <EditText
+        android:id="@+id/title_box"
+        android:layout_width="330sp"
+        android:layout_height="58sp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/bar_style"
+        android:ems="10"
+        android:hint="@string/enter_your_title"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="200sp"
+        android:layout_height="62sp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textSize="20sp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/decs_box"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="@+id/decs_box"
+        app:layout_constraintTop_toBottomOf="@+id/decs_box"
+        app:layout_constraintVertical_bias="0.337" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/full_back">
+
+    <EditText
+        android:id="@+id/update_title_pop"
+        android:layout_width="300sp"
+        android:layout_height="48sp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bar_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/title"
+        android:inputType="text|textImeMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/update_description_pop"
+        android:layout_width="300sp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bar_style_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/description"
+        android:inputType="text|textMultiLine"
+        android:paddingLeft="10sp"
+        android:paddingTop="15sp"
+        android:paddingRight="10sp"
+        android:paddingBottom="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/update_title_pop"
+        app:layout_constraintStart_toStartOf="@+id/update_title_pop"
+        app:layout_constraintTop_toBottomOf="@+id/update_title_pop" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/update_description_pop"
+        app:layout_constraintStart_toStartOf="@+id/update_description_pop"
+        app:layout_constraintTop_toBottomOf="@+id/update_description_pop">
+
+        <Button
+            android:id="@+id/update_cancle_btn"
+            android:layout_width="120sp"
+            android:layout_height="52sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="2sp"
+            android:backgroundTint="#3C7962"
+            android:fontFamily="@font/poppins"
+            android:text="@string/cancle"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <Button
+            android:id="@+id/update_save_btn"
+            android:layout_width="120sp"
+            android:layout_height="52sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="2sp"
+            android:backgroundTint="#3C7962"
+            android:fontFamily="@font/poppins"
+            android:text="@string/save"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="229dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

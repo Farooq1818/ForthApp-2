@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ForthApp-2</string>
+    <string name="Login">login</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="name">Name</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="log_in">login</string>
+    <string name="password">Password</string>
+    <string name="link">www reallygreatsite com</string>
+    <string name="Farooq_at">Farooq.at</string>
+    <string name="Create_new_account">Create New Account</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <!--    <string name="Password">ass</string>-->
+    <string name="sign_up">SignIn</string>
+    <!--    <string name="Www_reallygreatsite_com">wwwe</string>-->
+    <!--    <string name="farooq_at">farooq.at</string>-->
+    <!--    <string name="farooq">farooq.at</string>-->
+    <string name="Farooq">Farooq</string>
+    <string name="register">Register</string>
+    <string name="default_web_client_id">default_web_client_id</string>
+    <string name="write_your_notes_here">Write Your Notes Here</string>
+    <string name="write">Write</string>
+    <string name="delete">Delete</string>
+    <string name="enter_your_description">Enter Your Description</string>
+    <string name="enter_your_title">Enter Your Title</string>
+    <string name="save">Save</string>
+    <string name="all_notes">All Notes</string>
+    <string name="cancle">Cancle</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="o_app_data">O.App Data</string>
+    <!--    <string name="Create_New_account">Create_new_account</string>-->
+</resources>
+
+
